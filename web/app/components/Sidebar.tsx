@@ -45,7 +45,7 @@ export default function Sidebar({ role }: Props) {
 
   return (
     <aside className="w-64 bg-white shadow-md p-4">
-      <h2 className="text-xl font-bold mb-6">VisionCare AI</h2>
+      <h2 className="text-xl font-bold mb-6">EyeCareAI</h2>
       <ul className="space-y-4">
         {menus[role].map((item, idx) => (
           <li key={idx}>
