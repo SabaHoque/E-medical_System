@@ -15,6 +15,7 @@ export default function Sidebar({ role }: Props) {
       { name: "Reports", path: "/dashboard/patient/reports" },
       { name: "My Profile", path: "/dashboard/patient/Profile" }, 
       { name: "Map & Emergency", path: "/dashboard/patient/map" },
+      { name: "Doctor Service Info", path: "/dashboard/patient/home-doctor-info" },
       { name: "Settings", path: "/dashboard/patient/settings" },
     ],
     doctor: [
